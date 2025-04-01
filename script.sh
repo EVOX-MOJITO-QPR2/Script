@@ -27,6 +27,8 @@ git clone https://github.com/EVOX-MOJITO-QPR2/android_vendor_xiaomi_sm6150-commo
 # cloning hardware tree
 git clone https://github.com/EVOX-MOJITO-QPR2/android_hardware_xiaomi_mojito.git --depth 1 -b mojito hardware/xiaomi
 
+git clone -b Evo-15 https://github.com/EVOX-MOJITO-QPR2/local_manifests .repo/local_manifests
+
 # Sync the repositories
 /opt/crave/resync.sh
 echo "============================"
